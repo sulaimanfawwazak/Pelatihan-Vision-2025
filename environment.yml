@@ -1,0 +1,12 @@
+name: viscon
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - nb_conda
+  - opencv
+  - pip
+  - pip:
+      - opencv-python
+      - charminal
